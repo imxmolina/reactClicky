@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/227/13934.svg?1532983002",
+        "name": "Avocado"
+    },
+    {
+        "id":2,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/3218/13129.svg?1532025262",
+        "name": "Bagel"
+    },
+    {
+        "id":3,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/200/10215.svg?1520302204",
+        "name": "Baguette"
+    },
+    {
+        "id":4,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/238/11822.svg?1528323123",
+        "name": "Croissant"
+    },
+    {
+        "id":5,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/3.1/2917/8165.svg?1497459150",
+        "name": "Dumpling"
+    },
+    {
+        "id":6,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/2250/11753.svg?1527882895",
+        "name": "Egg"
+    },
+    {
+        "id":7,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/284/11768.svg?1527895571",
+        "name": "Fishcake"
+    },
+    {
+        "id":8,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/277/11747.svg?1527882679",
+        "name": "Kamja"
+    },
+    {
+        "id":9,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/283/11824.svg?1528323136",
+        "name": "Shrimp"
+    },
+    {
+        "id":10,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/210/11755.svg?1527882924",
+        "name": "Potato"
+    },
+    {
+        "id":11,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/2252/11888.svg?1528839583",
+        "name": "Peanut"
+    },
+    {
+        "id":12,
+        "image": "https://d1j8pt39hxlh3d.cloudfront.net/development/emojione/4.0/2926/11813.svg?1528311998pretzel.png",
+        "name": "Pretzel"
+    }
+]
