@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Clickable from "./components/Clickable";
 import Wrapper from "./components/wrapper";
 import images from "./components/images/images.json";
+import Nav from "./components/nav";
 import './App.css';
 
 
@@ -31,7 +32,7 @@ class App extends Component {
       }
       return newThing;
     });
-    
+
     correct
       ? this.correctClick(newImage)
       : this.incorrectClick(newImage);
@@ -52,7 +53,8 @@ class App extends Component {
   incorrectClick = images => {
     console.log("Game Over")
     this.setState({
-      images: this.reset(images)
+      images: this.reset(images),
+      score: 0
     });
   };
 
@@ -75,6 +77,8 @@ class App extends Component {
 
   render() {
     return (
+      <div>
+      <Nav score={this.state.score} topScore={this.state.topScore}/>
       <Wrapper>
         {this.state.images.map(images =>
 
@@ -87,8 +91,8 @@ class App extends Component {
           />
 
         )}
-
       </Wrapper>
+      </div>
     );
   }
 }

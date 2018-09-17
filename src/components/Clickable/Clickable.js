@@ -4,7 +4,7 @@ import "./Clickable.css";
 const Clickable = props => (
     <div className="card">
         <div className="img-container">
-            <img alt={props.name} src={props.image} onClick={(e) => props.handleClick}/>
+            <img alt={props.name} src={props.image} onClick={() => props.handleClick(props.id)}/>
         </div>
     </div>
 );
